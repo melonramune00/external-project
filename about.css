@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+  h1 { 
+    font-size: 50px;
+  }
+
+  nav { 
+    font-family: "Montserrat", sans-serif;
+  }
+
+ nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    /*display: inline-block;*/ /* makes menus the same size vertical menu*/
+    display: flex;
+    justify-content: space-between;
+    /* flex-end space-around */
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: #FF69B4;
+  }
+
+  img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 5%;
+  }
+
+  a { 
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background: #FF69B4;
+    color: #f7f7ff;
+    padding: 20px;
+  }
+
+  p {
+    margin: 60px;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(233, 13%, 49%);
+  }
+
+  h2 { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  h3 { 
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+  }
+
+  nav ul li :hover {
+    color: #000;
+  }
+
+  nav a { 
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  
+ header { 
+    height: 200px;
+    background-size: cover;
+    background-color:#f7f7ff;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+ }
+ footer { 
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+    background: #959BB8;
+    }
+ 
